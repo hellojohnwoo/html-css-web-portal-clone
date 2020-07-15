@@ -1,0 +1,71 @@
+/* Cascading Style Sheet */
+/* Selector */
+
+* {
+    box-sizing: border-box;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+
+/* default: div */
+#header-center {
+    margin: 0 auto;
+    width: 1130px;
+}
+
+
+
+/* Parent > Children */
+/* GrandParent GrandChildren */
+#header-search h1 {
+    width: 222px;
+    height: 52px;
+    display: inline-block;
+    background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite */
+    vertical-align: middle;
+
+    /* background-image: url(./sp_search.png); */
+    /* background-position: -4px -10px; */
+
+    /* text-indent: 100%; */
+    /* overflow: hidden; */
+}
+
+#header-search h1 span {
+    display: none;
+}
+
+#header-search h2 {
+    display: none;
+}
+
+#header-search fieldset {
+    margin-left: 20px;
+    padding: 13px 13px 13px 13px;
+    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color */ /* rgb(1,2,3) */
+    width: 586px;
+    height: 56px;
+    display: inline-block;
+}
+
+#header-search fieldset input {
+    border: none;
+    padding: 0;
+    outline: none;
+    vertical-align: middle;
+}
+
+/*
+GrandParent (Just One Space) GrandChildren
+#header-center h1 {
+
+}
+*/
