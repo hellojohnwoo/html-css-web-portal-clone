@@ -31,6 +31,8 @@
     display: inline-block;
     background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite */
     vertical-align: middle;
+    position: relative;
+    top: -6px;
 
     /* background-image: url(./sp_search.png); */
     /* background-position: -4px -10px; */
@@ -48,27 +50,35 @@
 }
 
 #header-search fieldset {
-    margin-left: 20px;
-    padding: 13px 13px 13px 13px;
-    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color */ /* rgb(1,2,3) */
     width: 586px;
     height: 56px;
+    margin-left: 5px;
+    padding: 13px 13px 13px 13px;
+    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color */ /* rgb(1,2,3) */
     display: inline-block;
+    vertical-align: middle;
+    position: relative;    /* ch04: Block Format Context */ /* MDN: Stacking Context */
 }
 
 #header-search fieldset input {
+    width: 490px;
+    height: 23px;
     border: none;
     padding: 0;
     outline: none;
-    vertical-align: middle;
+    vertical-align: top;
+    display: inline-block;
 }
 
 #header-search fieldset button {
-    width: 49px;
-    height: 49px;
+    width: 52px;
+    height: 52px;
     border: none;
     padding: 0;
     background: #03cf5d;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 #search-image {
