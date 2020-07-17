@@ -41,7 +41,13 @@
 /*    width: 1130px;*/
 /*}*/
 
+#header-top {
+    float: right;
+}
 
+#header-search a {
+    text-decoration: none;
+}
 
 /* Parent > Children */
 /* GrandParent GrandChildren */
