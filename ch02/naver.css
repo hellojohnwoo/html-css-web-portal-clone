@@ -1,13 +1,13 @@
-/* Cascading Style Sheet */
-/* Selector */
+/* Cascading Style Sheet
+/* Selector
 
-/* default: div */
+/* default: div
 #header-center {
     margin: 0 auto;
     width: 1130px;
 }
 
-/* Parent > Children */
+/* Parent > Children
 #header-search > h1 {
     width: 280px;
     display: inline-block;

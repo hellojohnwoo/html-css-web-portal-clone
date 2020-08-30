@@ -1,25 +1,25 @@
-/* Cascading Style Sheet */
-/* Selector */
+/* Cascading Style Sheet
+/* Selector
 
 * {
     box-sizing: border-box;
 }
 
-/* html, body { */
-/*    margin: 0; */
-/*    padding: 0; */
-/* } */
+/* html, body {
+/*    margin: 0;
+/*    padding: 0;
+/* }
 
-/* #fixed { */
-/*    position: fixed; */
-/*    top: 50px; */
-/*    right: 50px; */
-/*    display: inline-block; */
-/*    width: 100px; */
-/*    height: 100px; */
-/*    border: 1px solid black; */
-/*    border-radius: 50px; */
-/* } */
+/* #fixed {
+/*    position: fixed;
+/*    top: 50px;
+/*    right: 50px;
+/*    display: inline-block;
+/*    width: 100px;
+/*    height: 100px;
+/*    border: 1px solid black;
+/*    border-radius: 50px;
+/* }
 
 .blind {
     position: absolute;
@@ -35,7 +35,7 @@
     width: 1130px;
 }
 
-/* default: div */
+/* default: div
 /*#header-center {*/
 /*    margin: 0 auto;*/
 /*    width: 1130px;*/
@@ -43,22 +43,22 @@
 
 
 
-/* Parent > Children */
-/* GrandParent GrandChildren */
+/* Parent > Children
+/* GrandParent GrandChildren
 #header-search h1 {
     width: 222px;
     height: 52px;
     display: inline-block;
-    background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite */
+    background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite
     vertical-align: middle;
     position: relative;
     top: -6px;
 
-    /* background-image: url(./sp_search.png); */
-    /* background-position: -4px -10px; */
+    /* background-image: url(./sp_search.png);
+    /* background-position: -4px -10px;
 
-    /* text-indent: 100%; */
-    /* overflow: hidden; */
+    /* text-indent: 100%;
+    /* overflow: hidden;
 }
 
 #header-search h1 span {
@@ -74,10 +74,10 @@
     height: 56px;
     margin-left: 5px;
     padding: 13px 13px 13px 13px;
-    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color */ /* rgb(1,2,3) */
+    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color /* rgb(1,2,3)
     display: inline-block;
     vertical-align: middle;
-    position: relative;    /* ch04: Block Format Context */ /* MDN: Stacking Context */
+    position: relative;    /* ch04: Block Format Context /* MDN: Stacking Context
 }
 
 #header-search fieldset input {
@@ -127,7 +127,7 @@ nav li {
 }
 
 /* !important > inline style attribute
-              > id > other attribute, (:pseudo) class > tag element */
+              > id > other attribute, (:pseudo) class > tag element
 
 nav li span:first-child {
     height: 16px;

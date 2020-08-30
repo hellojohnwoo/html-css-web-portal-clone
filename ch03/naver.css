@@ -1,5 +1,5 @@
-/* Cascading Style Sheet */
-/* Selector */
+/* Cascading Style Sheet
+/* Selector
 
 * {
     box-sizing: border-box;
@@ -15,7 +15,7 @@
 }
 
 
-/* default: div */
+/* default: div
 #header-center {
     margin: 0 auto;
     width: 1130px;
@@ -23,20 +23,20 @@
 
 
 
-/* Parent > Children */
-/* GrandParent GrandChildren */
+/* Parent > Children
+/* GrandParent GrandChildren
 #header-search h1 {
     width: 222px;
     height: 52px;
     display: inline-block;
-    background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite */
+    background: url("./sp_search.png") -2px -2px no-repeat; /* image sprite
     vertical-align: middle;
 
-    /* background-image: url(./sp_search.png); */
-    /* background-position: -4px -10px; */
+    /* background-image: url(./sp_search.png);
+    /* background-position: -4px -10px;
 
-    /* text-indent: 100%; */
-    /* overflow: hidden; */
+    /* text-indent: 100%;
+    /* overflow: hidden;
 }
 
 #header-search h1 span {
@@ -50,7 +50,7 @@
 #header-search fieldset {
     margin-left: 20px;
     padding: 13px 13px 13px 13px;
-    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color */ /* rgb(1,2,3) */
+    border: 2px solid #03cf5d;  /* Hex(RGB) Hex Color /* rgb(1,2,3)
     width: 586px;
     height: 56px;
     display: inline-block;
